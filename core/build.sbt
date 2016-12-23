@@ -2,10 +2,10 @@
 libraryDependencies ++= Seq(
   "org.slf4j"       % "slf4j-api"                 % "1.7.12",
   "ch.qos.logback"  % "logback-classic"           % "1.1.3",
-  "org.scalaz"     %% "scalaz-core"               % "7.1.11",
-  "org.scalaz"     %% "scalaz-concurrent"         % "7.1.11",
+  "org.scalaz"     %% "scalaz-core"               % scalazVersion.value,
+  "org.scalaz"     %% "scalaz-concurrent"         % scalazVersion.value,
   "org.scala-lang"  % "scala-reflect"             % scalaVersion.value % "provided",
-  "org.scalaz"     %% "scalaz-scalacheck-binding" % "7.1.11"  % "test",
+  "org.scalaz"     %% "scalaz-scalacheck-binding" % scalazVersion.value  % "test",
   "org.scalacheck" %% "scalacheck"                % "1.13.4" % "test"
 )
 
